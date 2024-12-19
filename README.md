@@ -1,5 +1,5 @@
 # All Java Games:
-- **MUST HAVE JDK 22 or higher** installed on your device in order to run these jar files
+- <ins>**MUST HAVE JDK 22 or higher**</ins> installed on your device in order to run these jar files
 - Eventually some of these games will be read to run in the browser but for now are just executable jar files
 - If you click on each gif it brings you directly to the zip file download
 
