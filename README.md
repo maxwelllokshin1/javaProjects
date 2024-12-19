@@ -21,15 +21,38 @@
 ### Instructions to run jar file from command line
 - Press windows key and type command prompt and open the first application
 - Now to enter the proper directory to access downloaded files/ desktop files type:
-- <ins>**cd C:\Users**</ins> (This gives you access to see all users on your device)
-- Now select the proper user as such: <ins>**cd "the user the downloaded file was given to"**</ins>
-- Now select downloads or desktop. Wherever you dropped your device and type out: <ins>**cd Desktop**</ins> or <ins>**cd Downloads**</ins>
+```sh
+cd C:\Users
+```
+- This gives you access to see all users on your device
+- Now select the proper user as such:
+```sh
+cd (the user the downloaded file was given to)
+```
+- Now select downloads or desktop. Wherever you dropped your device and type out:
+```sh
+cd Desktop
+```
+or 
+```sh
+cd Downloads
+```
 - Now select the proper jar file (for this step you will need to extract all files from the zip file and move the jar file outside of a folder)
-- Once jar file is outside of zip folder type: <ins>**java -jar (name of game).jar**</ins> to open your jar file
+- Once jar file is outside of zip folder type:to open your jar file
+```sh
+java -jar (name of game).jar
+```
 
 ### Some helpful commands for command line
-- To check all files such as users or files in download type: <ins>**dir**</ins> this shows all directorys connected to the file
-- To go back if you went into the wrong file type: <ins>**cd..**</ins> this will take you out of the current file your in
+- To check all files such as users or files in download type: this shows all directorys connected to the file
+```sh
+dir
+```
+
+- To go back if you went into the wrong file type: this will take you out of the current file your in
+```sh
+cd..
+```
   
 # Snake Game Preview
 
